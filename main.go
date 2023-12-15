@@ -18,3 +18,7 @@ func main() {
 		err_.Printf("[-]  %s\n", err.Error())
 	}
 }
+
+//func main() {
+//	util.CompileRegexes()
+//}

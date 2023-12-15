@@ -54,6 +54,15 @@ func New() *cli.App {
 			Flags:  []cli.Flag{},
 			Action: util.Auto,
 		},
+
+		//{
+		//	Name:  "search",
+		//	Usage: "Search for files",
+		//	Flags: []cli.Flag{
+		//		&cli.StringFlag{Name: "dir", Required: false, Usage: "文件路径"},
+		//	},
+		//	Action: util.Search,
+		//},
 	}
 	return app
 }
